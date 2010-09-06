@@ -2,12 +2,15 @@ use inc::Module::Install;
 name 'Iterator-ToArray';
 all_from 'lib/Iterator/ToArray.pm';
 
-# requires '';
+requires 'Scalar::Util';
+
+test_requires 'Test::More';
+test_requires 'Test::Exception';
+test_requires 'Iterator::Simple';
 
 tests 't/*.t';
 author_tests 'xt';
 
-test_requires 'Test::More';
 auto_set_repository;
 auto_include;
 WriteAll;
