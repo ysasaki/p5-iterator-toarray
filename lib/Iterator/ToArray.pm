@@ -80,7 +80,7 @@ Iterator::ToArray convert iterator to array using coderef.
 
 =head1 AUTHOR
 
-Yoshihiro Sasaki E<lt>aloelight {at} gmail.comE<gt>
+Yoshihiro Sasaki E<lt>ysasaki {at} cpan.orgE<gt>
 
 =head1 LICENSE
 

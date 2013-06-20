@@ -1,5 +1,8 @@
 Revision history for Perl extension Iterator::ToArray
 
+{{$NEXT}}
+    - Uses Minilla as authoring tool.
+
 0.02    Tue Sep  7 11:07:00 2010
         - fix tests failed at Test::Spelling and Test::Perl::Critic.
         - removed Iterator::Simple dependency in make test.
