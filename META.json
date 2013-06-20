@@ -65,7 +65,7 @@
          "web" : "https://github.com/ysasaki/p5-iterator-toarray"
       }
    },
-   "version" : "0.02",
+   "version" : "0.03",
    "x_contributors" : [
       "ysasaki <ysasaki@idac.co.jp>",
       "ysasaki <aloelight@gmail.com>"

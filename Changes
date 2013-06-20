@@ -1,6 +1,8 @@
 Revision history for Perl extension Iterator::ToArray
 
 {{$NEXT}}
+
+0.03 2013-06-20T07:17:28Z
     - Uses Minilla as authoring tool.
 
 0.02    Tue Sep  7 11:07:00 2010
