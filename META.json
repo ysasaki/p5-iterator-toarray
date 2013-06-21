@@ -27,14 +27,13 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.59"
+            "Module::Build" : "0.38"
          }
       },
       "configure" : {
          "requires" : {
             "CPAN::Meta" : "0",
             "CPAN::Meta::Prereqs" : "0",
-            "ExtUtils::MakeMaker" : "0",
             "Module::Build" : "0.38"
          }
       },
@@ -48,8 +47,14 @@
       },
       "runtime" : {
          "requires" : {
-            "Scalar::Util" : "0",
-            "perl" : "5.008003"
+            "Scalar::Util" : "1.25",
+            "perl" : "5.008008"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::Exception" : "0.32",
+            "Test::More" : "0.98"
          }
       }
    },
