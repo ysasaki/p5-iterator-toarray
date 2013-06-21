@@ -1,6 +1,8 @@
 Revision history for Perl extension Iterator::ToArray
 
 {{$NEXT}}
+
+0.04 2013-06-21T02:37:42Z
     - Updates dependencies.
 
 0.03 2013-06-20T07:17:28Z

@@ -6,7 +6,7 @@ use warnings;
 use base 'Exporter';
 use Scalar::Util qw(blessed reftype);
 
-our $VERSION   = '0.03';
+our $VERSION   = '0.04';
 our @EXPORT_OK = qw/to_array/;
 
 sub new {
